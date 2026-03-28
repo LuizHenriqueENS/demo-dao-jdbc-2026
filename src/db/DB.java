@@ -20,7 +20,7 @@ public class DB {
 
                 String url = props.getProperty("dburl");
                 conn = DriverManager.getConnection(url, props);
-                System.out.println("Connection established");
+                System.out.println(">>>>>>> Connection established\n=============");
             } catch (SQLException e){
                 throw new DbException(e.getMessage());
             }
@@ -37,6 +37,8 @@ public class DB {
                 throw new DbException(e.getMessage());
             }
         }
+        
+        System.out.println("\n================\n>>>>>>> Connection now is closed");
     }
 
     private static Properties loadProperties() {

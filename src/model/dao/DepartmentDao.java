@@ -10,6 +10,7 @@ public interface DepartmentDao {
 	void update(Department obj);
 	void deleteById(Integer id);
 	Department findyById(Integer id);
+	Department findByName(String name);
 	
 	List<Department> findAll();
 }
