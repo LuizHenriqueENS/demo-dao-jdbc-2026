@@ -2,15 +2,11 @@ package db;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-=======
-import java.sql.*;
->>>>>>> 4b560ef381af6aa8a793fcee3b3168b105c9fae3
 import java.util.Properties;
 
 public class DB {
